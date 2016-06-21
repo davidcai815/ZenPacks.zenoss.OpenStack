@@ -49,6 +49,14 @@ If you are also using Zenoss to monitor the guest operating system running withi
 
 == Changes ==
 
+;1.2.4
+* zOpenStackInsecure option is added to skip SSL verification. ([https://jira.zenoss.com/browse/ZEN-23460 ZEN-23460])
+
+;1.2.3
+* Move devices from /Devices/OpenStack to /Devices/OpenStack/User
+* Support new OpenStackInfrastructure ZenPack
+* Drop support for Compute API v1.x
+
 ;1.2.2
 * Fix bug that could prevent data collection.
 
